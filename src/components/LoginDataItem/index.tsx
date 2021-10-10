@@ -23,6 +23,10 @@ export function LoginDataItem({
   email,
   password
 }: Props) {
+  console.log({ service_name });
+  console.log({ email });
+  console.log({ password });
+
   const [passIsVisible, setPassIsVisible] = useState(false);
 
   function handleTogglePassIsVisible() {
